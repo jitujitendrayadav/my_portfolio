@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jitendra Kumar Yadav | Full Stack Developer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:'Inter',sans-serif}
+    body{background:#0f172a;color:#e5e7eb}
+    a{text-decoration:none;color:inherit}
+    img{max-width:100%;display:block}
+
+    .container{max-width:1150px;margin:auto;padding:40px 20px}
+
+    /* Hero */
+    .hero{min-height:100vh;display:flex;align-items:center}
+    .hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}
+    .tag{color:#38bdf8;font-weight:600;letter-spacing:1px}
+    h1{font-size:48px;margin:15px 0}
+    h1 span{color:#38bdf8}
+    .hero p{color:#cbd5f5;font-size:18px;max-width:520px}
+    .btn{display:inline-block;margin-top:25px;padding:14px 30px;background:#38bdf8;color:#020617;border-radius:30px;font-weight:600}
+
+    .socials{margin-top:30px}
+    .socials a{margin-right:15px;font-size:22px;color:#cbd5f5;transition:.3s}
+    .socials a:hover{color:#38bdf8}
+
+    section{margin-top:80px}
+    h2{font-size:32px;margin-bottom:25px;color:#f8fafc}
+
+    .card{background:#020617;border:1px solid #1e293b;border-radius:14px;padding:25px;transition:.4s}
+    .card:hover{transform:translateY(-8px);box-shadow:0 25px 60px rgba(56,189,248,.25)}
+
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:25px}
+
+    .skill{display:inline-block;padding:8px 14px;margin:6px;border-radius:20px;background:#020617;border:1px solid #1e293b;font-size:14px}
+
+    .project-img{width:100%;height:160px;object-fit:cover;border-radius:10px;margin-bottom:12px}
+
+    footer{text-align:center;padding:30px;color:#94a3b8;margin-top:80px;border-top:1px solid #1e293b}
+
+    /* Mobile Optimization */
+    @media (max-width: 900px){
+      h1{font-size:38px}
+      .hero-grid{grid-template-columns:1fr}
+      .hero{text-align:center}
+      .hero p{margin:auto}
+      .socials{text-align:center}
+    }
+
+    @media (max-width: 600px){
+      h1{font-size:32px}
+      h2{font-size:26px}
+      .container{padding:30px 15px}
+      .btn{padding:12px 22px;font-size:14px}
+      .project-img{height:140px}
+      footer{font-size:14px}
+    }
+  </style>
+</head>
+<body>
+
+<div class="container hero">
+  <div class="hero-grid">
+    <div>
+      <span class="tag">FULL STACK DEVELOPER</span>
+      <h1>Hi, I'm <span>Jitendra</span></h1>
+      <p>I build fast, secure, and scalable websites & web applications using modern technologies. I help businesses and creators turn ideas into powerful digital products.</p>
+      <a href="#contact" class="btn">Hire Me</a>
+      <a href="Jitendra_Yadav_CV.pdf" class="btn" style="margin-left:15px;background:#020617;color:#38bdf8;border:2px solid #38bdf8" download>Download CV</a>
+
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/jitendra-kumar-yadav-18157a24b" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/share/1BjanEiJqK/" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://youtube.com/@apanmon" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.gamghar.com" target="_blank"><i class="fas fa-globe"></i></a>
+      </div>
+    </div>
+
+    <div style="text-align:center">
+      <img src="profile.jpg" alt="Jitendra Kumar Yadav" style="width:280px;height:280px;object-fit:cover;border-radius:50%;border:6px solid #38bdf8;box-shadow:0 20px 60px rgba(56,189,248,.4)">
+    </div>
+  </div>
+</div>
+
+<div class="container">
+
+  <section>
+    <h2>About Me</h2>
+    <div class="card">
+      <p>I am a B.Sc. IT graduate and Full Stack Web Developer with real-world experience in Java, PHP, React, WordPress, and MySQL. I have worked on multiple live projects and currently manage large digital communities with over 140K+ followers.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="card">
+      <span class="skill">HTML</span><span class="skill">CSS</span><span class="skill">JavaScript</span><span class="skill">React</span><span class="skill">Next.js</span><span class="skill">PHP</span><span class="skill">Java</span><span class="skill">WordPress</span><span class="skill">MySQL</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Services</h2>
+    <div class="grid">
+      <div class="card"><h3>Website Development</h3><p>Custom business and personal websites.</p></div>
+      <div class="card"><h3>WordPress Solutions</h3><p>Themes, plugins & optimization.</p></div>
+      <div class="card"><h3>Full Stack Apps</h3><p>Secure, scalable web applications.</p></div>
+      <div class="card"><h3>Digital Growth</h3><p>SEO-friendly development & strategy.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="project1.jpg" class="project-img" alt="The Muslim Nikah">
+        <h3>The Muslim Nikah</h3>
+        <p>Full-stack matchmaking platform with secure user system.</p>
+      </div>
+      <div class="card">
+        <img src="project2.jpg" class="project-img" alt="Khao Khao">
+        <h3>Khao Khao</h3>
+        <p>Online food ordering system with admin dashboard.</p>
+      </div>
+      <div class="card">
+        <img src="project3.jpg" class="project-img" alt="Fire Reporting">
+        <h3>Online Fire Reporting</h3>
+        <p>Web-based system for reporting and managing fire incidents.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+      <form onsubmit="sendEmail(); return false;">
+        <input type="text" placeholder="Your Name" style="width:100%;padding:12px;margin-bottom:10px;border-radius:6px;border:1px solid #1e293b;background:#020617;color:#fff">
+        <input type="email" placeholder="Your Email" style="width:100%;padding:12px;margin-bottom:10px;border-radius:6px;border:1px solid #1e293b;background:#020617;color:#fff">
+        <textarea placeholder="Your Message" rows="4" style="width:100%;padding:12px;margin-bottom:10px;border-radius:6px;border:1px solid #1e293b;background:#020617;color:#fff"></textarea>
+        <button class="btn" type="submit">Send Message</button>
+      </form>
+      <p style="margin-top:15px">Email: jitendrakumaryadav0906@gmail.com</p>
+      <p>Phone: +977 9819733876</p>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  © 2025 Jitendra Kumar Yadav | Full Stack Developer
+<a href="https://wa.me/9779819733876" style="position:fixed;bottom:20px;right:20px;background:#25d366;color:#fff;padding:15px;border-radius:50%;font-size:22px" target="_blank"><i class="fab fa-whatsapp"></i></a>
+
+<footer>
+
+<script>
+function sendEmail(){
+  const name=document.querySelector('input[type=text]').value;
+  const email=document.querySelector('input[type=email]').value;
+  const msg=document.querySelector('textarea').value;
+  const mailto=`mailto:jitendrakumaryadav0906@gmail.com?subject=Portfolio Contact from ${name}&body=Email: ${email}%0D%0A%0D%0A${msg}`;
+  window.location.href=mailto;
+}
+</script>
+</body>
+</html>
